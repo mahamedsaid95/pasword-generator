@@ -60,7 +60,9 @@ function generatePassword() {
         passwordoptions = passwordoptions.concat(uppercase);
 
     }
-for (var i = 0; i < passwordcriteria.length; i++){
+for (var i = 0; i < parseInt(passwordcriteria.length); i++){
+    var index = Math.floor(Math.random() * passwordcriteria.passlength)
+    gener
     //get random element from array JS
     //push to empty var array
     //return var array that has pass happens after forloop
